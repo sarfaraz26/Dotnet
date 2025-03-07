@@ -1,0 +1,29 @@
+﻿INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Human Resources', 'Handles employee relations, benefits, and recruitment', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Finance', 'Manages company finances, budgeting, and accounting', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'IT', 'Responsible for managing technology infrastructure and support', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Marketing', 'Handles advertising, public relations, and promotions', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Sales', 'Responsible for selling the company\''s products and services', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Customer Service', 'Supports customers with their inquiries and issues', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Legal', 'Handles legal matters and corporate compliance', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Research and Development', 'Works on new products and innovative solutions', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Logistics', 'Manages the distribution and delivery of products', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Operations', 'Oversees the company\''s day-to-day operations and efficiency', 'admin', GETDATE(), NULL, NULL);

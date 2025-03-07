@@ -1,0 +1,29 @@
+﻿INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'John Doe', 'john.doe@example.com', 0, 'a4b45e7a-ec86-4404-99a6-102b23bccb86', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Jane Smith', 'jane.smith@example.com', 0, 'a4b45e7a-ec86-4404-99a6-102b23bccb86', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Alice Johnson', 'alice.johnson@example.com', 0, 'bc94c75e-eb8e-4eb9-a523-e61ffcd89e32', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Bob Brown', 'bob.brown@example.com', 0, '2911787b-631b-42e9-9914-bb2694373055', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Charlie Green', 'charlie.green@example.com', 0, '65754003-cbfc-4802-9d28-96edd605b022', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'David Lee', 'david.lee@example.com', 0, '2911787b-631b-42e9-9914-bb2694373055', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Eve White', 'eve.white@example.com', 0, '65754003-cbfc-4802-9d28-96edd605b022', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Frank Black', 'frank.black@example.com', 0, '2911787b-631b-42e9-9914-bb2694373055', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Grace Adams', 'grace.adams@example.com', 0, 'b854c10f-6b24-4652-8346-cb8744622f7f', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES (NEWID(), 'Hank Wilson', 'hank.wilson@example.com', 0, 'bc94c75e-eb8e-4eb9-a523-e61ffcd89e32', 'admin', GETDATE(), NULL, NULL);

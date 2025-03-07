@@ -1,0 +1,6 @@
+﻿INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('A1234567-89AB-CDEF-0123-456789ABCDEF', 'Human Resources', 'Handles all HR-related functions like recruitment, training, and employee welfare.', 'admin', GETDATE(), NULL, NULL);
+
+INSERT INTO Departments (Id, Name, Description, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('B1234567-89AB-CDEF-0123-456789ABCDEF', 'Engineering', 'Responsible for product development, maintenance, and engineering solutions.', 'system', GETDATE(), 'admin', GETDATE());
+

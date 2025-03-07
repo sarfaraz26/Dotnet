@@ -1,0 +1,15 @@
+﻿-- Employee 1
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('C1234567-89AB-CDEF-0123-456789ABCDEF', 'John Doe', 'john.doe@example.com', 0, 'A1234567-89AB-CDEF-0123-456789ABCDEF', 'admin', GETDATE(), NULL, NULL);
+
+-- Employee 2
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('D1234567-89AB-CDEF-0123-456789ABCDEF', 'Jane Smith', 'jane.smith@example.com', 0, 'A1234567-89AB-CDEF-0123-456789ABCDEF', 'admin', GETDATE(), NULL, NULL);
+
+-- Employee 3
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('E1234567-89AB-CDEF-0123-456789ABCDEF', 'Michael Johnson', 'michael.johnson@example.com', 1, 'A1234567-89AB-CDEF-0123-456789ABCDEF', 'admin', GETDATE(), NULL, NULL);
+
+-- Employee 4
+INSERT INTO Employees (Id, Name, Email, Resigned, DepartmentId, CreatedBy, CreatedDtTm, ModifiedBy, ModifiedDtTm)
+VALUES ('F1234567-89AB-CDEF-0123-456789ABCDEF', 'Alice Brown', 'alice.brown@example.com', 0, 'B1234567-89AB-CDEF-0123-456789ABCDEF', 'admin', GETDATE(), NULL, NULL);
